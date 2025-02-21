@@ -37,13 +37,15 @@ To help illustrate collaborating on a project using Git/GitHub, consider the fol
 	- Now you can `$ git pull upstream main`. **Managers** will always use `origin` in place of `upstream`.
 2. **Use a feature branch** with `$ git checkout <feature_branch_name>`;
    add `-b` to create a new branch if necessary. In WDI, most students will use their name as the name of the branch. **You should never write code while in the `main` branch**.
-3. Write some code!
-4. **When you have completed a feature:**
+
+   (If you want to bring in the code from the main branch into a branch that already exists, you can run `git merge main` inside your branch
+4. Write some code!
+5. **When you have completed a feature:**
 	- Commit your code as usual...
    	- `$ git push origin <feature_branch_name>`
-5. On **your** GitHub repo's page, find and click the Pull Request button.
-6. FYI, multiple commits are grouped within a single open pull request.
-7. Go back to step #2.
+6. On **your** GitHub repo's page, find and click the Pull Request button.
+7. FYI, multiple commits are grouped within a single open pull request.
+8. Go back to step #2.
 
 ### Accepting and Merging A Pull Request
 
